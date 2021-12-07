@@ -6,7 +6,7 @@
   <artifactId>maoxian-example</artifactId>
   <version>0.0.1-SNAPSHOT</version>
   <modules>
-    <module>maoxian-login-example</module>
+    <module>maoxian-user-example</module>
   </modules>
   <name>maoxian-example</name>
   <description>Demo project for Spring Boot</description>
