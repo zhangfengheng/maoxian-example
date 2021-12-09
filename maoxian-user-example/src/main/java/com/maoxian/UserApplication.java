@@ -1,5 +1,6 @@
 package com.maoxian;
 
+import org.mybatis.spring.annotation.MapperScan;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
@@ -8,8 +9,9 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
  * @date 2021/12/7 9:48
  */
 @SpringBootApplication
-public class LoginApplication {
+@MapperScan("com.maoxian.mapper")
+public class UserApplication {
   public static void main(String[] args) {
-    SpringApplication.run(LoginApplication.class,args);
+    SpringApplication.run(UserApplication.class,args);
   }
 }
